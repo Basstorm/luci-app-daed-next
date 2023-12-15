@@ -12,7 +12,7 @@ jobs:
         arch:
           - aarch64_generic
         sdk:
-          - openwrt-22.03
+          - openwrt-23.05
 
     steps:
       - uses: actions/checkout@v3
