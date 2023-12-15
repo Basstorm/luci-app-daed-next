@@ -32,7 +32,7 @@ jobs:
       - name: Building packages
         uses: sbwml/openwrt-gh-action-sdk@go1.21
         env:
-          ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
+          ARCH: ${{ matrix.arch }}
           FEEDNAME: packages_ci
           PACKAGES: luci-app-daed-next
           NO_REFRESH_CHECK: true
