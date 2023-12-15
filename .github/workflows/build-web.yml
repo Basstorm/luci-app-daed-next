@@ -44,5 +44,5 @@ jobs:
           tag: daed-web-${{ env.version }}
           commit: main
           replacesArtifacts: true
-          token: ${{ secrets.workflow_token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           artifacts: build/daed-web-${{ env.version }}.*
